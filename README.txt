@@ -3,14 +3,14 @@ https://github.com/Lessstuck/ml.drumFeatures
 
 This feature extractor is meant to help with classifying percussion sound samples.
 
-Install Max
+
+Using a Macintosh computer, install Max
 https://cycling74.com/downloads
 
 Launch Max
 File > Show Package Manager
 Install
 zsa descriptors
-
 
 Double-click
 drumFeatures.maxpat
