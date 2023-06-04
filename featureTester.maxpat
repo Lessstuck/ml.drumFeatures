@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 171.0, 170.0, 747.0, 822.0 ],
+		"rect" : [ 626.0, 108.0, 747.0, 822.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,39 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"linecount" : 2,
+					"id" : "obj-4",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 266.5, 268.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "In a test folder, collect sounds that are the same type but not identical. Verify the classification."
+					"patching_rect" : [ 406.0, 516.0, 69.0, 47.0 ],
+					"presentation_linecount" : 3,
+					"text" : "threshold to start analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 7,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 124.0, 466.5, 198.0, 102.0 ],
+					"text" : "-95.716665 0. -0.000001 0.000002 -0.000005 -0.000004 -0.000005 0.000003 0.000011 -0.000003 -0.000001 -0.000002 -0.000009 -0.000003 -0. -0.000001 0.000008 -0.000018 -0.000001 -0.000003 -0.000023 0.000003 -0. -0.000017"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.5, 266.5, 268.0, 47.0 ],
+					"text" : "In a test folder, collect sounds that are the same type but not identical. In Wekinator, run to verify the classification."
 				}
 
 			}
@@ -59,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.5, 209.0, 268.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "In Wekinator, choose a classifier with a class for each folder of sounds, activate record, then choose the sample folder corresponding to the class."
 				}
 
@@ -93,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 142.5, 264.4149169921875, 60.0 ],
+					"patching_rect" : [ 19.5, 142.5, 268.0, 60.0 ],
 					"text" : "Choosing a folder will play each sound file in the folder once per second and send a time-stamped MFCC message via OSC once every 100ms."
 				}
 
@@ -137,7 +161,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.0, 334.5, 187.0, 55.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Number of Mel bands + 1 = Number of Wekinator Inputs"
 				}
 
@@ -152,7 +175,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 356.0, 52.0, 226.0, 25.0 ],
-					"presentation_linecount" : 3,
 					"text" : "choose folder for training or testing"
 				}
 
@@ -452,8 +474,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 363.5, 522.0, 36.0, 22.0 ],
-					"text" : "> -80"
+					"patching_rect" : [ 363.5, 525.0, 40.0, 22.0 ],
+					"text" : "> -80."
 				}
 
 			}
@@ -480,7 +502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 327.0, 460.5, 56.0, 22.0 ],
+					"patching_rect" : [ 327.0, 461.5, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -530,8 +552,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.0, 125.0, 75.0, 22.0 ],
-					"text" : "kick"
+					"patching_rect" : [ 537.0, 125.0, 75.0, 22.0 ]
 				}
 
 			}
@@ -757,14 +778,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-32",
-					"items" : [ "SOPHIE_kick_dry_01.wav", ",", "SOPHIE_kick_dry_02.wav", ",", "SOPHIE_kick_dry_06.wav", ",", "SOPHIE_kick_dry_07.wav", ",", "SOPHIE_kick_dry_10.wav", ",", "SOPHIE_kick_dry_11.wav", ",", "SOPHIE_kick_dry_12.wav", ",", "SOPHIE_kick_dry_15.wav", ",", "SOPHIE_kick_dry_16.wav", ",", "SOPHIE_kick_dry_17.wav", ",", "SOPHIE_kick_dry_18.wav", ",", "SOPHIE_kick_dry_19.wav", ",", "SOPHIE_kick_wet_06.wav", ",", "SOPHIE_kick_wet_07.wav", ",", "SOPHIE_kick_wet_08.wav", ",", "SOPHIE_kick_wet_09.wav" ],
+					"items" : [ "SOPHIE_hihat_closed_01.wav", ",", "SOPHIE_hihat_closed_02.wav", ",", "SOPHIE_hihat_closed_04.wav", ",", "SOPHIE_hihat_open_01.wav", ",", "SOPHIE_hihat_open_02.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 398.0, 208.0, 232.0, 22.0 ],
-					"prefix" : "~/Documents/GitBig/ml.drumFeatures/samples/kick/"
+					"prefix" : "~/Documents/GitBig/ml.drumFeatures/samples/hat trick/"
 				}
 
 			}
@@ -1013,27 +1034,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"fontface" : 1,
-					"hint" : "",
-					"id" : "obj-31",
-					"ignoreclick" : 1,
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 273.9149169921875, 312.5, 20.0, 20.0 ],
-					"rounded" : 60.0,
-					"text" : "3",
-					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1232,7 +1232,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-72", 1 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
