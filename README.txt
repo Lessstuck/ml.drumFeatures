@@ -3,7 +3,7 @@ https://github.com/Lessstuck/ml.drumFeatures
 
 This feature extractor is meant to help with classifying short sound samples. Each sample is played into an MFCC feature extractor once every 0.1s for a total of 1 sec. Times are added to the beginning of each MFCC list, so that multiple examples can be recorded without stopping. This means the patch can play a folder full of samples automatically.
 
-Group similar samples into folders with their class names. Do as many as you like. Then set aside other samples into a test folder where the classes are mixed together. Choosing a folder will automatically play each sample in the folder, and send time-stamped mfcc data to Mekinator. After recording and training, choose the test folder to see how well your classifier is working.
+Group similar samples into folders with their class names. Do as many as you like. Then set aside other samples into a test folder where the classes are mixed together. Choosing a folder will automatically play each sample in the folder, and send time-stamped MFCC data to Wekinator. After recording and training, choose the test folder to see how well your classifier is working.
 
 _____INSTALL
 
