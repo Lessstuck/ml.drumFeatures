@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 406.0, 516.0, 69.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "threshold to start analysis"
 				}
 
@@ -733,7 +732,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 241.0, 95.0, 22.0 ],
+					"patching_rect" : [ 504.5, 334.5, 95.0, 22.0 ],
 					"text" : "prepend replace"
 				}
 
@@ -784,7 +783,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.0, 208.0, 232.0, 22.0 ],
+					"patching_rect" : [ 398.0, 211.0, 232.0, 22.0 ],
 					"prefix" : "~/Documents/GitBig/ml.drumFeatures/samples/hat trick/"
 				}
 
@@ -796,7 +795,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 479.0, 273.0, 114.0, 22.0 ],
+					"patching_rect" : [ 504.5, 366.5, 114.0, 22.0 ],
 					"text" : "buffer~ exampleFile"
 				}
 
